@@ -1,0 +1,24 @@
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   parallel: true,
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': 'node_modules\\lerna\\cli.js',
+0 silly argv   script: 'start'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath C:\Users\User\Desktop\KerenWixTest\entry-level-exam
+3 info Executing command in 2 packages: "npm run start"
+4 silly npmRunScript.stream [ 'start', [], '@fed-exam/client' ]
+5 silly getExecOpts C:\Users\User\Desktop\KerenWixTest\entry-level-exam\client undefined
+6 silly npmRunScript.stream [ 'start', [], '@fed-exam/server' ]
+7 silly getExecOpts C:\Users\User\Desktop\KerenWixTest\entry-level-exam\server undefined
+8 error MaxBufferError: stdout maxBuffer exceeded
+8 error     at PassThrough.<anonymous> (C:\Users\User\Desktop\KerenWixTest\entry-level-exam\node_modules\get-stream\index.js:41:19)
+8 error     at PassThrough.emit (events.js:412:35)
+8 error     at addChunk (internal/streams/readable.js:290:12)
+8 error     at readableAddChunk (internal/streams/readable.js:261:11)
+8 error     at PassThrough.Readable.push (internal/streams/readable.js:204:10)
+8 error     at PassThrough.Transform.push (internal/streams/transform.js:166:32)
+8 error     at PassThrough.afterTransform (internal/streams/transform.js:101:10)
+8 error     at PassThrough._transform (internal/streams/passthrough.js:46:3)
+8 error     at PassThrough.Transform._read (internal/streams/transform.js:205:10)
