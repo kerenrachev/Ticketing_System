@@ -1,4 +1,4 @@
-# Wix FED Entry Level Exam
+# Ticketing system
 
 Hi there!  
 In this exam you will extend and add new features to a simplified ticketing system.
